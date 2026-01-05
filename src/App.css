@@ -1,0 +1,23 @@
+.home_container {
+}
+
+.top_title {
+  color: #6a5acd;
+  text-align: center;
+  font-size: 48px;
+}
+
+.btn {
+  background-color: #6a5acd;
+  color: #fff;
+  border: solid 1px #fff;
+  padding: 16px 32px;
+  cursor: pointer;
+  font-size: 24px;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  font-size: 26px;
+  transition: all ease 0.3s;
+}
