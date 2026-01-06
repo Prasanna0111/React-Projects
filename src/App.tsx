@@ -3,6 +3,7 @@ import "./App.css";
 import Home from "./pages/Home";
 import Counter from "./pages/Counter";
 import ShowHide from "./pages/ShowHide";
+import ToDo from "./pages/ToDo";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/counter" element={<Counter />} />
         <Route path="/showhide" element={<ShowHide />} />
+        <Route path="/todo" element={<ToDo />} />
       </Routes>
     </>
   );

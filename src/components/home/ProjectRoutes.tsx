@@ -17,6 +17,12 @@ export default function ProjectRoutes() {
           navigate("/showhide");
         }}
       />
+      <CustomButton
+        name={"To Do"}
+        route={() => {
+          navigate("/todo");
+        }}
+      />
     </div>
   );
 }
