@@ -23,6 +23,12 @@ export default function ProjectRoutes() {
           navigate("/todo");
         }}
       />
+      <CustomButton
+        name={"Users List"}
+        route={() => {
+          navigate("/users");
+        }}
+      />
     </div>
   );
 }
